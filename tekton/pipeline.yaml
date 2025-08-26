@@ -35,6 +35,8 @@ spec:
         value: $(params.repo-url)
       - name: revision
         value: $(params.branch)
+      - name: submodules
+        value: "false"
       runAfter:
         - init
 
